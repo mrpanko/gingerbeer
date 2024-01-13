@@ -1,46 +1,76 @@
 body {
-    background-color: #ECEFF4;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    background-color: #FEF7EC;
+}
 
-}
-/* header {
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    display: block;
-} */
-.nav_header {
-    background-color: #4C566A;
-    text-transform: uppercase;
-    text-indent: 10px;
-    display: block;
-    position: static;
-    top: 0%;
-    left: 0%;
-    color: #D8DEE9;
-    font-family: 'Roboto', sans-serif;
-    font-size: 24px;
-    vertical-align: middle;
-    padding: 0px;
-    height: 50px;
-    line-height: 50px;
-}
-a {
-    color: #D8DEE9;
-    text-decoration: none;
-}
-#new_meeting, #existing_meeting {
-    text-align: center;
-    padding: 10px;
-    margin: 10px;
-    line-height: 20px;
-    background-color: #8FBCBB;
-    color: #D8DEE9;
-    width: 270px;
+.title_menu {
+    padding: 20px;
+    color: #3B4252;
+    display: flex;
     align-items: center;
-    border-radius: 30px;
-    display:block;
-    position:relative;
-    left: 25%;
+}
+
+.title_menu h1{
+    font-size: 2.8rem;
+    font-weight:900;
+    /* background-color: black; */
+    padding: 0rem;
+    margin: 0rem;
+    
+}
+
+.title_menu h2 {
+    /* background-color: black; */
+    font-size: 1.8rem;
+    font-weight: 400;
+    padding: 0rem;
+    margin: 0rem;
+}
+
+#talk {
+    position: relative;
+    left: 5rem;
+}
+
+#club {
+    position: relative;
+    left: 10rem;
+}
+
+.title_menu>img {
+    height: 10rem;
+}
+
+.main_section {
+    padding:20px;
+    font-size: x-large;
+    color: #3B4252;
+    background-color: #FEF7EC;
+    height: 20rem;
+}
+
+.posts {
+    display:flex;
+    gap: 12rem;
     justify-content: center;
-    font-family: 'Roboto', sans-serif;
+    padding: 20px;
+    color: #5E81AC;
+    font-weight: 200;
+}
+
+.bottom_container {
+    margin-top: 20rem;
+    padding:20px;
+    background-color: #E5E9F0;
+    height: 8rem;
+}
+
+.bottom_container a {
+    color: #5E81AC;
+}
+
+footer {
+    margin-top: 5rem;
+    color: #3B4252
 }
