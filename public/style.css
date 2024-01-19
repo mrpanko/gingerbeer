@@ -1,76 +1,74 @@
 body {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400;
-    background-color: #FEF7EC;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  background-color: white;
 }
 
 .title_menu {
-    padding: 20px;
-    color: #3B4252;
-    display: flex;
-    align-items: center;
+  padding: 20px;
+  color: #3b4252;
+  background-color: #fef7ec;
+  display: flex;
+  align-items: center;
 }
 
-.title_menu h1{
-    font-size: 2.8rem;
-    font-weight:900;
-    /* background-color: black; */
-    padding: 0rem;
-    margin: 0rem;
-    
+.title_menu h1 {
+  font-size: 2.8rem;
+  font-weight: 900;
+  padding: 0rem;
+  margin: 0rem;
 }
 
 .title_menu h2 {
-    /* background-color: black; */
-    font-size: 1.8rem;
-    font-weight: 400;
-    padding: 0rem;
-    margin: 0rem;
+  /* background-color: black; */
+  font-size: 1.8rem;
+  font-weight: 400;
+  padding: 0rem;
+  margin: 0rem;
 }
 
 #talk {
-    position: relative;
-    left: 5rem;
+  position: relative;
+  left: 5rem;
 }
 
 #club {
-    position: relative;
-    left: 10rem;
+  position: relative;
+  left: 10rem;
 }
 
-.title_menu>img {
-    height: 10rem;
+.title_menu > img {
+  height: 10rem;
 }
 
 .main_section {
-    padding:20px;
-    font-size: x-large;
-    color: #3B4252;
-    background-color: #FEF7EC;
-    height: 20rem;
+  padding: 20px;
+  font-size: x-large;
+  color: #3b4252;
+  height: 20rem;
 }
 
 .posts {
-    display:flex;
-    gap: 12rem;
-    justify-content: center;
-    padding: 20px;
-    color: #5E81AC;
-    font-weight: 200;
+  display: flex;
+  gap: 12rem;
+  justify-content: center;
+  padding: 20px;
+  color: #5e81ac;
+  font-weight: 200;
 }
 
 .bottom_container {
-    margin-top: 20rem;
-    padding:20px;
-    background-color: #E5E9F0;
-    height: 8rem;
+  margin-top: 0rem;
+  padding: 30px;
+  background-color: #fef7ec;
+  height: 8rem;
 }
 
 .bottom_container a {
-    color: #5E81AC;
+  color: #5e81ac;
 }
 
 footer {
-    margin-top: 5rem;
-    color: #3B4252
+  margin-top: 5rem;
+  color: #3b4252;
 }
